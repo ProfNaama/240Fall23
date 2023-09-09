@@ -1,0 +1,22 @@
+a:link {
+    color: hotpink;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a[target] {
+    color: aquamarine;
+}
+
+a {
+    display: block;
+    border: 1px solid black;
+    width: max-content;
+    margin: auto;
+}

@@ -1,0 +1,24 @@
+* {
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+@font-face {
+    font-family: MyFirstFont;
+    src: url(Quicksand-VariableFont_wght.ttf);
+}
+
+h1 {
+    color: rgb(16, 16, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: MyFirstFont;
+}
+
+#h1A {
+    color: rgb(254, 0, 0);
+}
+
+.h1B {
+    color: green;
+}
