@@ -1,0 +1,59 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    background-color: blue;
+    color: white;
+    display: block;
+}
+
+.relative {
+    position: relative;
+    left: 50px
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    background-color: yellow;
+}
+
+#scotty {
+    float: left;
+}
+
+.Flex_container {
+    display: flex;
+    background-color: aqua;
+    flex-direction:column-reverse;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'nav main main'
+    'nav main main';
+}
+
+header {
+    grid-area: header;
+    background-color: gray;
+    min-height: 100px;
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(242, 206, 206);
+    min-height: 200px;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(183, 255, 204);
+    min-height: 200px;
+}
