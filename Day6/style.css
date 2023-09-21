@@ -1,0 +1,25 @@
+body {
+    width: 90%;
+    margin: auto;
+    text-align:center ;
+}
+
+nav, footer, .feature {
+    background-color: rgb(189, 189, 189);
+    margin: 10px;
+    padding: 10px;
+    clear:both;
+}
+
+.column1, .column2, .column3 {
+    background-color: rgb(254, 186, 186);
+    margin: 1%;
+    width: 31%;
+    float: left;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
