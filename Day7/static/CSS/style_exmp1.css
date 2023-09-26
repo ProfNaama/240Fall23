@@ -1,0 +1,36 @@
+:root {
+    --CMU_green: rgb(0,150,71);
+    --CMU_red: rgb(239,58,71);
+    --CMU_gold: rgb(253,181,21);
+    --CMU_teal: rgb(0,143,145);
+}
+
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    background-color: var(--CMU_gold);
+}
+
+.container {
+    background-color: white;
+}
+
+img {
+    float: left;
+    max-width: 15%;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: var(--CMU_green);
+    }
+    
+    img {
+        max-width: 30%;
+    }
+
+    
+}
