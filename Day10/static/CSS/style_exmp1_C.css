@@ -1,0 +1,7 @@
+body {
+    background-color: var(--CMU_gold);
+}
+
+img {
+    max-width: 30%;
+}

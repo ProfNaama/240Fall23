@@ -1,0 +1,44 @@
+:root {
+    --CMU_green: rgb(0,150,71);
+    --CMU_red: rgb(239,58,71);
+    --CMU_gold: rgb(253,181,21);
+    --CMU_teal: rgb(0,143,145);
+}
+
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    background-color: var(--CMU_gold);
+}
+
+.container {
+    background-color: white;
+    overflow:auto;
+}
+
+img {
+    float:right;
+    max-width: 15%;
+}
+
+
+
+@media  screen and (max-width:600px) {
+    body {
+        background-color: var(--CMU_green);
+    }
+    
+    img {
+        max-width: 30%;
+    }
+
+    
+}
+
+
+@import url("style_exmp1_B.css") screen and (max-width:599px) ;
+@import url("style_exmp1_C.css") screen and (min-width:600px) ;
+*/

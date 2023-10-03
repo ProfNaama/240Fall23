@@ -1,0 +1,12 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-template: 
+    'header' 50px
+    'nav' 50px
+    'ftur' 50px
+    'col1' 150px
+    'col2' 150px
+    'col3' 150px
+    'footer' 50px;
+}

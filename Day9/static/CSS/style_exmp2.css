@@ -1,0 +1,74 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template: 
+    'header header header' 10%
+    'nav nav nav' 10%
+    'ftur ftur ftur' 10%
+    'col1 col2 col3' 60%
+    'footer footer footer' 10%;
+}
+
+header {
+    background-color: rgb(255, 187, 187);
+    grid-area: header;
+    margin: 5px;
+}
+
+nav {
+    background-color: rgb(255, 200, 163);
+    grid-area: nav;
+    margin: 5px;
+}
+
+.feature {
+    background-color: rgb(253, 235, 131);
+    grid-area: ftur;
+    margin: 5px;
+}
+
+.column1 {
+    background-color: rgb(181, 239, 171);
+    grid-area: col1;
+    margin: 5px;
+}
+
+.column2 {
+    background-color: rgb(161, 219, 254);
+    grid-area: col2;
+    margin: 5px;
+}
+
+.column3 {
+    background-color: rgb(181, 168, 255);
+    grid-area: col3;
+    margin: 5px;
+}
+
+footer {
+    background-color: rgb(251, 158, 217);
+    grid-area: footer;
+    margin: 5px;
+}
+
+
+@media screen and (max-width:600px) {
+    .container {
+        min-height: 100%;
+        display: grid;
+        grid-template: 
+        'header' 10%
+        'nav' 10%
+        'ftur' 10%
+        'col1' 20%
+        'col2' 20%
+        'col3' 20%
+        'footer' 10%;
+    } 
+}
+

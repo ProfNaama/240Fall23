@@ -1,0 +1,7 @@
+body {
+    background-color: var(--CMU_green);
+}
+
+img {
+    max-width: 30%;
+}

@@ -16,14 +16,17 @@ body {
 
 .container {
     background-color: white;
+    overflow:auto;
 }
 
 img {
-    float: left;
+    float:right;
     max-width: 15%;
 }
 
-@media only screen and (max-width:600px) {
+
+
+@media  screen and (max-width:600px) {
     body {
         background-color: var(--CMU_green);
     }
@@ -34,3 +37,8 @@ img {
 
     
 }
+
+
+@import url("style_exmp1_B.css") screen and (max-width:599px) ;
+@import url("style_exmp1_C.css") screen and (min-width:600px) ;
+*/
