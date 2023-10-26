@@ -40,11 +40,11 @@ function book(bName, aName, R) {
 
 var b1 = new book("The Hobbit", "Tolkien", true);
 var b2 = new book("War and Peace", "Tolstoy", false);
-var b3 = new book("Anna Karenina", "Dostyovskt", true);
+var b3 = new book("Anna Karenina", "Dostoyevskt", true);
 
 console.log(b1);
 
-var booksArray = [b1,b2,b3]
+var booksArray = [b1,b2,b3];
 
 console.log(booksArray);
 
@@ -55,5 +55,16 @@ for (let index = 0; index < booksArray.length; index++) {
         console.log("i read " + element.BookName + "by " + element.authorName);
     }     
 };
+
+var MyReadings = function () {
+    for (let index = 0; index < booksArray.length; index++) {
+        const element = booksArray[index];
+        if (element.alreadyRead == true) {
+            console.log("i read " + element.BookName + " by " + element.authorName);
+        }     
+    };
+};
+
+MyReadings();
 
 
