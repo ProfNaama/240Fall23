@@ -1,0 +1,14 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding: 10px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 12px;
+    padding: 5px;
+    margin-left: 15px;
+}

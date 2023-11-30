@@ -1,0 +1,20 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin: auto;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 10%;
+}
+
+.active {
+    background-color: blue;
+    color: white;
+}
