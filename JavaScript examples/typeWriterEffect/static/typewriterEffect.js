@@ -1,6 +1,6 @@
 var i = 0;
 var txt = 'This is a javascript typewriter effect';
-var speed = 50;
+var speed = 0;
       
 function typeWriter() {
     if (i < txt.length) {
