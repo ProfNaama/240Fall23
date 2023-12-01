@@ -17,4 +17,12 @@ a {
 .active {
     background-color: blue;
     color: white;
+    text-decoration: underline;
 }
+
+.rotated90 { 
+    transform:rotate(90deg); 
+    -webkit-transform:rotate(90deg); 
+    -moz-transform:rotate(90deg); 
+    -o-transform:rotate(90deg); 
+  }
